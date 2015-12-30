@@ -8,4 +8,6 @@
     <string name="play_playlist">Play Playlist</string>
     <string name="play_single">Play Single Video</string>
     <string name="standalone_sub">Standalone Sub Menu</string>
+    <string name="play_Hits_of_2015">Hits of 2015</string>
+    <string name="play_Cric_Playlist">Play Cricket Videos</string>
 </resources>

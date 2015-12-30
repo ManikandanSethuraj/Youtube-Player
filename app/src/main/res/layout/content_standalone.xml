@@ -6,19 +6,77 @@
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_standalone"
-    tools:context="com.manikandansethuraj.youtubeplayer.StandaloneActivity">
+    tools:context="com.manikandansethuraj.youtubeplayer.StandaloneActivity"
+    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.33"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+        android:id="@+id/btnPlayFootball"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
 
-    <Button
-        android:id="@+id/btnPlayVideo"
-        android:layout_width="wrap_content"
+        android:text="@string/play_video"
+        android:background="@drawable/football"/>
+    <ImageButton
+        android:id="@+id/btnPlayMyFav"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:text="@string/play_video"/>
-    <Button
-        android:id="@+id/btnPlayPlaylist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:text="@string/play_playlist"/>
+        android:layout_weight="0.5"
+        android:text="@string/play_playlist"
+        android:background="@drawable/my_favourites"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33">
+        <ImageButton
+            android:id="@+id/btnPlayTech"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/technology"/>
+        <ImageButton
+            android:id="@+id/btnPlayPlayBestOf2015"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/play_playlist"
+            android:background="@drawable/topmusic"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnPlayCricket"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+
+            android:text="@string/play_video"
+            android:background="@drawable/cricket1"/>
+        <ImageButton
+            android:id="@+id/btnPlayTrailers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/play_playlist"
+            android:background="@drawable/trailers"/>
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
